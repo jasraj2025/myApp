@@ -1,0 +1,48 @@
+ 
+<html>
+  <head>
+    <title>Image recognition</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js" ></script>
+
+   <link rel="stylesheet" href="style.css">
+  
+  </head>
+
+  <body background="image.jpg" class="bg">
+  <div class="container">
+    
+
+      <h3 class="btn btn-default heading" id="heading">MASK RECOGNIZER</h3><br><br><br>
+
+<div class="oo">
+      <label id="top_text">Webcam View - </label>
+
+      <br><br>
+
+
+
+
+  <div id="camera"></div>
+ <h3 id="my"> <div id="result"></div></h3> 
+  <br>
+ 
+<div id="botom">
+  <button type="botom" id="capture" onclick="take_snapshort()">Capture image</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <button type="button" id="Cheack" onclick="check()">Check</button>
+  <br><br>
+      <p style="font-size: 30px;" id="rez" > Result:  </p>  <div id="rez_rezult" ></div>
+      <p style="font-size: 30px;" id="acu" > Accuracy :  </p><div id="acu_result">   </div></div>
+  </div>
+</div>
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+ 

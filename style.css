@@ -1,0 +1,71 @@
+.bg{
+    background-size: cover;
+    background-position: center;
+}
+
+#heading{
+    font-size:60px;
+    text-align:left;
+   border-radius: 20px;
+}
+
+
+#top_text{
+    font-size:30px;
+    font-family: 'Courier New', Courier, monospace;
+    color:red;
+    padding-left: 50 px;
+}
+
+#rez{
+    font-family: Algerian;
+ 
+}
+
+#acu{
+    font-family: Algerian;
+}
+
+#camera{
+    background-color:black;
+    height:300px;
+    width: 300px;
+}
+
+#capture{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:20px;
+    background-color:greenyellow;
+}
+
+#Cheack{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-radius:20px;
+    background-color: crimson;  
+    color:black;
+}
+
+#rezult{
+    background-color:rgb(255, 255, 255);
+    height:300px;
+    width: 300px;
+    float: left;
+    position: relative;
+    left: 350px;
+    bottom: 320px;
+}
+
+#botom{
+    position: relative;
+   right: 20px;
+}
+
+.oo{
+    padding-left: 0px;
+}
